@@ -54,9 +54,9 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             // // テスト
-            // 'skill' => ['required', 'string', 'max:255'],
-            // // 'nickname' => ['required', 'string', 'max:255'],
-            // 'profile' => ['required', 'string',  'max:255'],
+            'skill' => ['required', 'string', 'max:255'],
+            'nickname' => ['required', 'string', 'max:255'],
+            'profile' => ['required', 'string',  'max:255'],
 
             // テスト
 
@@ -76,9 +76,9 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
         // // テスト
-        //     'skill' => $data['skill'],
-        //     'profile' => $data['profile'],
-            // 'nickname' => $data['nickname'],
+            'skill' => $data['skill'],
+            'profile' => $data['profile'],
+            'nickname' => $data['nickname'],
 
         // テスト
 

@@ -67,51 +67,51 @@
 
 
 <!--スキル-->
-                       <!--<div class="form-group row">-->
-                       <!--     <label for="skill" class="col-md-4 col-form-label text-md-right">{{ __('Skill') }}</label>-->
+                       <div class="form-group row">
+                            <label for="skill" class="col-md-4 col-form-label text-md-right">{{ __('Skill') }}</label>
 
-                       <!--     <div class="col-md-6">-->
-                       <!--         <input id="skill" type="text" class="form-control @error('skill') is-invalid @enderror" name="skill" value="{{ old('skill') }}" required autocomplete="skill" autofocus>-->
+                            <div class="col-md-6">
+                                <input id="skill" type="text" class="form-control @error('skill') is-invalid @enderror" name="skill" value="{{ old('skill') }}" required autocomplete="skill" autofocus>
 
-                       <!--         @error('skill')-->
-                       <!--             <span class="invalid-feedback" role="alert">-->
-                       <!--                 <strong>{{ $message }}</strong>-->
-                       <!--             </span>-->
-                       <!--         @enderror-->
-                       <!--     </div>-->
-                       <!-- </div>-->
+                                @error('skill')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
 <!--スキル-->
 
 <!--簡単な紹介文-->
-<!--                       <div class="form-group row">-->
-<!--                            <label for="profile" class="col-md-4 col-form-label text-md-right">{{ __('Profile') }}</label>-->
+                       <div class="form-group row">
+                            <label for="profile" class="col-md-4 col-form-label text-md-right">{{ __('Profile') }}</label>
 
-<!--                            <div class="col-md-6">-->
-<!--                                <input id="profile" type="text" class="form-control @error('profile') is-invalid @enderror" name="profile" value="{{ old('profile') }}" required autocomplete="profile" autofocus>-->
+                            <div class="col-md-6">
+                                <input id="profile" type="text" class="form-control @error('profile') is-invalid @enderror" name="profile" value="{{ old('profile') }}" required autocomplete="profile" autofocus>
 
-<!--                                @error('profile')-->
-<!--                                    <span class="invalid-feedback" role="alert">-->
-<!--                                        <strong>{{ $message }}</strong>-->
-<!--                                    </span>-->
-<!--                                @enderror-->
-<!--                            </div>-->
-<!--                        </div>-->
+                                @error('profile')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
 <!--簡単な紹介文-->
 
 <!--//ニックネーム-->
-                        <!-- <div class="form-group row">-->
-                        <!--    <label for="nickname" class="col-md-4 col-form-label text-md-right">{{ __('Nickname') }}</label>-->
+                         <div class="form-group row">
+                            <label for="nickname" class="col-md-4 col-form-label text-md-right">{{ __('Nickname') }}</label>
 
-                        <!--    <div class="col-md-6">-->
-                        <!--        <input id="nickname" type="text" class="form-control @error('nickname') is-invalid @enderror" name="nickname" value="{{ old('nickname') }}" required autocomplete="nickname" autofocus>-->
+                            <div class="col-md-6">
+                                <input id="nickname" type="text" class="form-control @error('nickname') is-invalid @enderror" name="nickname" value="{{ old('nickname') }}" required autocomplete="nickname" autofocus>
 
-                        <!--        @error('nickname')-->
-                        <!--            <span class="invalid-feedback" role="alert">-->
-                        <!--                <strong>{{ $message }}</strong>-->
-                        <!--            </span>-->
-                        <!--        @enderror-->
-                        <!--    </div>-->
-                        <!--</div>-->
+                                @error('nickname')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
 <!--ニックネーム-->
 
 
